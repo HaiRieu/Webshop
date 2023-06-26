@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="themify-icons/themify-icons.css" >
+</head>
+<body>
+   <div id="app">
+
+<div id="header">
+<div class="header-icon">
+
+ <ul class="ul-icon">
+   <li><a href="">
+    <i class="ti-user"></i>
+    <span class="span1">Quan Hệ Cổ Đông</span>
+   </a></li>
+   <li><a href=""> 
+    <i class="ti-map-alt"></i>
+    <span>Cửa Hàng</span>
+   </a></li>
+    <li> <a href=""  class="a-icon">
+        <i class="ti-headphone"></i>
+        <span class="sp1">1800 54 54 57</span>
+    </a></li>
+   
+ </ul>
+ <div class="img-icon"> <img src="img/pnj.com.vn.png" alt=""> </div>
+ <div class="time">
+    <a href="" class="a1"><i class="ti-timer"></i></a>
+    <span class="sp1a">Lịch Sử Đơn Hàng</span>
+ </div>
+
+ <div class="shope">
+    <a href="" class="a1"><i class="ti-shopping-cart"></i></a>
+    <span class="sp1a">Giỏ Hàng</span>
+ </div>
+
+</div> 
+<hr class="ngang1"  width="90%" align="center" size="0.5px" />
+
+<div class="header-icon1">
+  <ul class="ul-icon1">
+    <li class="l-icon"> <a href="">Trang Chủ</a></li>
+    <li><a href=""> Nam</a></li>
+    <li><a href=""> Nữ</a></li>
+    <li><a href=""> Cặp Đôi</a></li>
+    <li><a href=""> Trang Sức</a></li>
+    <li><a href=""> Phụ Kiện</a></li>
+    <li><a href="" class="a-kuyen"> Khuyến Mãi</a></li>
+  </ul>
+
+  <div class="timkiem">
+    <input type="text" name="" id="" class="tk-icon" value="Tìm Kiếm Nhanh">
+    <i class="ti-search"></i>
+</div>
+
+</div>
+</div>
+
+<div id="body">
+   <div class="body-icon1">
+      <div class="ptrang"><p>Trang Chủ /</p></div>
+      <div class="ptrang1"><p>Nữ</p></div>
+   </div>
+
+   <div class="body-icon2">
+
+    <div class="anhcao">
+      <img class="anhcao1" id="img" onclick="changeImage()" src="img/banner-category-pnj-watch-1200x450_cta100.jpg"" alt="">
+     </div>
+
+   <script>
+      var index = 1 ;
+      function changeImage(){
+         var imgs = ["img/banner-category-pnj-watch-1200x450_cta100.jpg","img/sile2.jpg" , "img/sile4.jpg" , ] ; 
+         document.getElementById('img').src = imgs[index] ; 
+         index++ ;
+        if(index == 3) {
+         index = 0 ;
+        }
+      }
+      setInterval(changeImage,2500);
+
+   </script>
+
+   <div class="caubao">
+      <p >Đồng hồ chính hãng thời trang </p>
+   </div>
+
+   </div>
+
+   <div class="body-icon3">
+      <div class="anhdai">
+         <img class="anhdai1" src="img/SIS-1-1200x1200.jpg.png" alt="" title="Thương hiệu độc quyền rạng ngời phong cách" >
+      </div>
+      <div class="anhdai">
+         <img  class="anhdai2" src="img/SIS-2-1200x1200.jpg.png" alt="" title="sdsdsds">
+      </div>
+      <div class="anhdai">
+         <img  class="anhdai3" src="img/SIS-3-1200x1200.jpg.png" alt="">
+      </div>
+      <div class="anhdai">
+         <img  class="anhdai4" src="img/SIS-4-1200x1200.jpg.png" alt="">
+      </div>
+
+   </div>
+
+   <div class="body-icon4">
+     <div class="acao">
+      <a href="">New Arrivals</a>
+     </div>
+
+     <div class="acao">
+      <a href="">Best Seller</a>
+     </div>
+
+     <div class="acao">
+      <a href="">Khuyến mãi</a>
+     </div>
+
+   </div>
+<div class="body-icon5">
+  <div class="ngoaicu">
+  <ul class="ngoaicu1">
+   
+   <li> <img src="https://www.watchstore.vn/upload/original-image/icon-watch-home.svg" alt="" class="imgqc"></li>
+   
+   <li><span class="sps">Mẫu Mã Đa Dạng</span>  </li>
+  </ul>
+
+</div>
+
+<div class="ngoaicu2">
+   <ul class="ngoaicu1">
+    <li><img src="img/icon-freeship.svg" alt="" class="imgqc"></li>
+    
+    <li><span class="sps">Miễn Phí Vận Chuyển</span>  </li>
+   </ul>
+ 
+ </div>
+
+ <div class="ngoaicu3">
+   <ul class="ngoaicu1">
+    <li><img src="img/icon-doi-tra.svg" alt="" class="imgqc"></li>
+    
+    <li><span class="sps">Đổi Hàng 7 Ngày</span>  </li>
+   </ul>
+ 
+ </div>
+
+ <div class="ngoaicu4">
+   <ul class="ngoaicu1">
+    <li><img src="img/ShieldCheck.svg" alt="" class="imgqc"></li>
+    
+    <li><span class="sps">Bảo Hành 5 Năm</span>  </li>
+   </ul>
+ 
+ </div>
+
+ <div class="ngoaicu5">
+   <ul class="ngoaicu1">
+    <li><img src="img/CircleWavyCheck.svg" alt="" class="imgqc"></li>
+    
+    <li><span class="sps">Đeo Trước Trả Sau</span>  </li>
+   </ul>
+ 
+ </div>
+
+ <div class="body-icon6">
+   <div class="xakho">
+      <img src="img/Banner-1200x120.webp" alt="" class="img-xakho">
+   </div>
+<div class="hangchinh">
+   <div class="hang1">
+      <div class="hanganh1">
+         <img  src="img/540050881a88b3d98a720ad38dc955b1.png" alt="">
+      </div>
+      <div class="tenhang1">
+         <a href="">Just Cavalli Nữ JC1L200L0025 Day Da 34mm</a>
+         <p class="p5cu">5.500.000 <span>₫</span></p>
+         <p class="p8cu"> <span class="ps8">8.800.000</span> <span class="psd">₫</span> <span class="ps37"> -37% </span></p>
+        <ul><li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li></ul>
+      </div>
+   </div>
+
+   <div class="hang1">
+      <div class="hanganh1">
+         <img  src="img/fl110122-4_1616383632_png.webp" alt="">
+      </div>
+      <div class="tenhang1">
+         <a href="">Just Cavalli Nữ JC1L21310025 Dây Da 32mm</a>
+         <p class="p5cu">5.500.000 <span>₫</span></p>
+         <p class="p8cu"> <span class="ps8">8.800.000</span> <span class="psd">₫</span> <span class="ps37"> -37% </span></p>
+        <ul><li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li></ul>
+      </div>
+   </div>
+
+   <div class="hang1">
+      <div class="hanganh1">
+         <img  src="img/f351305eeeaa10dfd346a88b40b51bb9.png" alt="">
+      </div>
+      <div class="tenhang1">
+         <a href="">Hồ Just Cavalli Nữ JC1L205M0105 Dây
+            Kim Loại 34mm</a>
+         <p class="p5cu">5.500.000 <span>₫</span></p>
+         <p class="p8cu"> <span class="ps8">8.800.000</span> <span class="psd">₫</span> <span class="ps37"> -37% </span></p>
+        <ul><li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li></ul>
+      </div>
+   </div>
+
+   <div class="hang1">
+      <div class="hanganh1">
+         <img  src="img/hublot-1-300x300.png" alt="">
+      </div>
+      <div class="tenhang1">
+         <a href="">Just Cavalli Nữ JCTL239L0035 Dây Da 30mm</a>
+         <p class="p5cu">5.500.000 <span>₫</span></p>
+         <p class="p8cu"> <span class="ps8">8.800.000</span> <span class="psd">₫</span> <span class="ps37"> -37% </span></p>
+        <ul><li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li></ul>
+      </div>
+   </div>
+
+   <div class="hang1">
+      <div class="hanganh1">
+         <img  src="img/she-3068pg-4budf.png" alt="">
+      </div>
+      <div class="tenhang1">
+         <a href="">Just Cavalli Nữ JC1L239M0125 Dây
+            Kim Loại 30mm</a>
+         <p class="p5cu">5.500.000 <span>₫</span></p>
+         <p class="p8cu"> <span class="ps8">8.800.000</span> <span class="psd">₫</span> <span class="ps37"> -37% </span></p>
+        <ul><li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li></ul>
+      </div>
+   </div>
+
+   <div class="hang1">
+      <div class="hanganh1">
+         <img  src="img/nhung-mau-dong-ho-nu-dang-so-huu-nhat-nam-2021-1.png" alt="">
+      </div>
+      <div class="tenhang1">
+         <a href="">Calvin Klein Nữ 25200129 Dây Kim
+            Loại 32 mm</a>
+         <p class="p5cu">5.500.000 <span>₫</span></p>
+         <p class="p8cu"> <span class="ps8">8.000.000</span> <span class="psd">₫</span> <span class="ps37"> -37% </span></p>
+        <ul><li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li>
+        <li><img src="img/star.svg" alt=""></li></ul>
+      </div>
+   </div>
+
+  </div>
+
+
+ </div>
+
+     <div class="body-icon7">
+   
+       <div class="thuonghieu">
+         <p class="thuong">THƯƠNG HIỆU NỔI BẬT</p>
+        <P >WatchStore đang có sẵn hơn 10.000+ sản phẩm đến từ <span>60 thương hiệu nổi tiếng</span> </P>
+      </div>
+      
+      <div class="thuonghieu1">
+         <div class="thuonghieu1a">
+              <img src="img/CS.webp" alt="">
+         </div>
+         <div class="thuonghieu1a">
+               <img src="img/CA.webp" alt="" class="img-thuong1">
+         </div>
+         <div class="thuonghieu1a ">
+         <img src="img/BL.webp" alt="">
+        </div>
+        <div class="thuonghieu1a  ">
+         <img src="img/CT.webp" alt="">
+        </div>
+        <div class="thuonghieu1a">
+       <img src="img/OV.webp" alt="">
+        </div>
+       <div class="thuonghieu1a">
+       <img src="img/HB.webp" alt="">
+        </div>
+
+      </div>
+
+      <div class="thuonghieu2">
+         <div class="thuonghieu1a">
+            <img src="img/BU.webp" alt="">
+       </div>
+       <div class="thuonghieu1a">
+             <img src="img/LG.webp" alt="" class="img-thuong1">
+       </div>
+       <div class="thuonghieu1a ">
+       <img src="img/DK.webp" alt="">
+      </div>
+      <div class="thuonghieu1a  ">
+       <img src="img/FC.webp" alt="">
+      </div>
+      <div class="thuonghieu1a">
+     <img src="img/GK.webp" alt="">
+      </div>
+     <div class="thuonghieu1a">
+     <img src="img/CK.webp" alt="">
+      </div>
+         
+      </div>
+
+      <div class="thuonghieu3">
+         <div class="thuonghieu3a">
+             <div class="crile"></div>
+           <div class="crile1"></div>
+         </div>
+          <div class="thuonghieu3a1">
+            <p>BÁN CHẠY NHẤT HỆ THỐNG</p>
+          </div> 
+       </div>
+
+      <div class="thuonghieu4">
+       <div class="thuonghieu4a">
+         <div class="thuonghieu4a1">
+            <img src="img/Medal.svg" alt="">
+         </div>
+         <div class="thuonghieu4a2">
+             <a href="">Nổi Bật</a>
+         </div>
+        </div> 
+
+        <div class="thuonghieu4b">
+         <div class="thuonghieu4b1">
+            <a href="">Đồng Hồ Nam</a>
+        </div>
+        </div>
+
+        <div class="thuonghieu4c">
+         <div class="thuonghieu4c1">
+            <a href="">Đồng Hồ Nữ</a>
+        </div>
+        </div>
+     
+      </div>
+
+    </div>
+
+ <div class="body-icon8">
+      <div class="body-icon8a">
+
+         <div class="bodyicon8a1">
+           <div class="bodyicon8a1-anh">
+           <a href="chitiet.html"><img src="img/wfo00000518-dong-ho-fossil-nu-es5286-day-cao-su-36-mm_1.jpg" alt=""> </a> 
+           </div>
+           <div class="bodyicon8a1-loi">
+            <p class="ploi1">Fossil Nữ ES5286 </p>
+            <p class="ploi1a">Dây Cao Su 36 mm</p>
+            <p class="pgia">5.000.000 <span>₫</span></p>
+           </div>
+         </div>
+
+
+         <div class="bodyicon8a2">
+               <div class="bodyicon8a1-anh">
+                <img src="img/EQ3003-50X_Desktop_1.jpg" alt="">
+               </div>
+               <div class="bodyicon8a1-loi">
+                <p class="ploi1">Citizen Nữ EQ3003-50X  </p>
+                  <p class="ploi1a">Dây Kim Loại 42 mm</p>
+                  
+                <p class="pgia">8.610.000 <span>₫</span></p>
+               </div>
+         </div>
+
+
+         <div class="bodyicon8a3">
+               <div class="bodyicon8a1-anh">
+                <img src="img/wsk00000286-dong-ho-skagen-nu-skw3085-day-da-26-mm6-1.jpg" alt="">
+               </div>
+               <div class="bodyicon8a1-loi">
+                <p class="ploi1">Skagen Nữ SKW3085  </p>
+                  <p class="ploi1a">Dây Da 26 mm</p>
+                <p class="pgia">5.500.000 <span>₫</span></p>
+               </div>
+         </div>
+
+         <div class="bodyicon8a4">
+               <div class="bodyicon8a1-anh">
+                <img src="img/wsk00000284-dong-ho-skagen-nu-skw3079-day-da-26-mm4-1a.jpg" alt="">
+               </div>
+               <div class="bodyicon8a1-loi">
+                <p class="ploi1">Skagen Nữ SKW3079  </p>
+                  <p class="ploi1a">Dây Tổng Hợp 26 mm</p>
+                <p class="pgia">6.999.000 <span>₫</span></p>
+               </div>
+         </div>
+
+         <div class="bodyicon8a5">
+               <div class="bodyicon8a1-anh">
+                <img src="img/SR33ASSAFS_Desktop_1.jpg" alt="">
+               </div>
+               <div class="bodyicon8a1-loi">
+                <p class="ploi1">Silvana Nữ Đỉnh 5 Viên Đá </p>
+                  <p class="ploi1a">Dây Tổng Hợp 32 mm</p>
+                <p class="pgia">8.610.000 <span>₫</span></p>
+               </div>
+          </div>
+
+       </div>
+
+     <div class="body-icon8b">
+      <div class="bodyicon8a1">
+         <div class="bodyicon8a1-anh">
+          <img src="img/JC1L133M0065_Desktop_1.jpg" alt="">
+         </div>
+         <div class="bodyicon8a1-loi">
+          <p class="ploi1">Just Cavalli Nữ  </p>
+          <p class="ploi1a">Thép Không Gỉ 18mm</p>
+          <p class="pgia">4.200.000 <span>₫</span></p>
+         </div>
+       </div>
+
+
+       <div class="bodyicon8a2">
+             <div class="bodyicon8a1-anh">
+              <img src="img/K0V231C6_Desktop_1.jpg" alt="">
+             </div>
+             <div class="bodyicon8a1-loi">
+              <p class="ploi1">Calvin Klein Unisex  </p>
+                <p class="ploi1a">Day Da 46 mm</p>
+                
+              <p class="pgia">6.260.000 <span>₫</span></p>
+             </div>
+       </div>
+
+
+       <div class="bodyicon8a3">
+             <div class="bodyicon8a1-anh">
+              <img src="img/K4R231C1_Desktop_1.jpg" alt="">
+             </div>
+             <div class="bodyicon8a1-loi">
+              <p class="ploi1">Calvin Klein Nữ    </p>
+                <p class="ploi1a">Dây Da 30 mm x 37.87 mm</p>
+              <p class="pgia">7.540.000 <span>₫</span></p>
+             </div>
+       </div>
+
+       <div class="bodyicon8a4">
+             <div class="bodyicon8a1-anh">
+              <img src="img/SB32QSS2P2CBE_Desktop_1.jpg" alt="">
+             </div>
+             <div class="bodyicon8a1-loi">
+              <p class="ploi1">Thụy Sĩ Silvana nữ   </p>
+                <p class="ploi1a">Dây Da 32 mm</p>
+              <p class="pgia">15.000.000 <span>₫</span></p>
+             </div>
+       </div>
+
+       <div class="bodyicon8a5">
+             <div class="bodyicon8a1-anh">
+              <img src="img/SR33QRR25CB_Desktop_1.jpg" alt="">
+             </div>
+             <div class="bodyicon8a1-loi">
+              <p class="ploi1">Thụy Sỹ Silvana Nữ  </p>
+                <p class="ploi1a">Dây Da 33 mm</p>
+              <p class="pgia">16.490.000 <span>₫</span></p>
+             </div>
+        </div>
+
+
+     </div>
+
+     <div class="body-icon8c">
+      <div class="bodyicon8a1">
+         <div class="bodyicon8a1-anh">
+          <img src="img/T006.407.22.033.02_Desktop_1.jpg "alt="">
+         </div>
+         <div class="bodyicon8a1-loi">
+          <p class="ploi1">Tissot Nam T006.407  </p>
+          <p class="ploi1a">Dây Kim Loại 40mm</p>
+          <p class="pgia">26.425.000<span>₫</span></p>
+         </div>
+       </div>
+
+
+       <div class="bodyicon8a2">
+             <div class="bodyicon8a1-anh">
+              <img src="img/T137.407.16.051.00_Desktop_1.jpg" alt="">
+             </div>
+             <div class="bodyicon8a1-loi">
+              <p class="ploi1">Calvin Klein Unisex  </p>
+                <p class="ploi1a">Day Da 46 mm</p>
+                
+              <p class="pgia">19.950.000 <span>₫</span></p>
+             </div>
+       </div>
+
+
+       <div class="bodyicon8a3">
+             <div class="bodyicon8a1-anh">
+              <img src="img/FS5840_Desktop_1.jpg" alt="">
+             </div>
+             <div class="bodyicon8a1-loi">
+              <p class="ploi1"> Fossil Nam FS5840    </p>
+                <p class="ploi1a">Dây Da 44 mm</p>
+              <p class="pgia">7.540.000 <span>₫</span></p>
+             </div>
+       </div>
+
+       <div class="bodyicon8a4">
+             <div class="bodyicon8a1-anh">
+              <img src="img/CA4500-16X_Desktop_1.jpg" alt="">
+             </div>
+             <div class="bodyicon8a1-loi">
+              <p class="ploi1">Citizen Nam CA4500-16X   </p>
+                <p class="ploi1a">Dây Da 32 mm</p>
+              <p class="pgia">8.845.000 <span>₫</span></p>
+             </div>
+       </div>
+
+       <div class="bodyicon8a5">
+             <div class="bodyicon8a1-anh">
+              <img src="img/L3.782.4.76.9.jpg" alt="">
+             </div>
+             <div class="bodyicon8a1-loi">
+              <p class="ploi1">Longines Nam L3   </p>
+                <p class="ploi1a">Dây Tổng Hợp 33 mm</p>
+              <p class="pgia">16.490.000 <span>₫</span></p>
+             </div>
+        </div>
+
+
+
+     </div>
+  
+   </div>   
+
+</div>
+
+   <div id="footer">
+     <div class="footer-dau">
+     <ul class="footer-dau1">
+      <li> <a href=""><ti class="ti-angle-left"></ti></a> </li>
+      <li> <a href="" class="a11">1</a> </li>
+      <li><a href="">2</a> </li>
+      <li><a href="">3</a> </li>
+      <li><a href="">4</a> </li>
+      <li><a href="">5</a> </li>
+      <li><a href="">6</a> </li>
+      <li><a href="">7</a> </li>
+      <li><a href="">8</a> </li>
+      <li><a href=""><ti class="ti-angle-right"></ti></a> </li>
+       </ul>
+  </div>
+   <div class="footer-giua">
+      <div class="footer-giuaheadel">
+         <p>Blog & Tips</p>
+      </div>
+      <div class="fotter-giua1">
+          <div class="anhfooter">
+            <img src="img/Chon-dong-ho_-am-phu-kien-xu-huong-thoi-trang-moi-cua-phai-dep-thumb.jpg" alt="">
+          </div>
+          <div class="baogomloi">
+            <div class="loifooter">
+               <p class="p-f">Chọn đồng hồ làm phụ kiện - xu hướng thời trang mới của phái đẹp</p>
+             </div>
+             <div class="loifooter1">
+               <p>Những năm gần đây, đồng hồ không chỉ gói gọn là "cỗ máy" thời gian mà còn được biết đến như một điểm nhấn thời trang được giới trẻ yêu thích và ưa chuộng</p>
+             </div>
+          </div>
+          
+      </div>
+
+      <div class="fotter-giua2">
+         <div class="anhfooter">
+           <img src="img/Dong-ho-Thuy-Sy-Tuong-dai-thoi-gian-cua-gioi-mo-dieu-thumb.jpg" alt="">
+         </div>
+         <div class="baogomloi">
+           <div class="loifooter">
+              <p class="p-f">Đồng hồ Thuỵ Sỹ - Tượng đài thời gian của giới mộ điệu</p>
+            </div>
+            <div class="loifooter1">
+              <p>Nhắc đến Thụy Sỹ, điều đầu tiên bạn nhớ về đất nước này là gì? Chắc chắn là đồng hồi!</p>
+            </div>
+         </div>
+         
+     </div>
+
+   </div>
+   <div class="kengang">
+      <hr  width="85%" size="2px"   />
+   </div>
+   
+   <div class="cuoi1">
+      <div class="anhcuoi">
+         <img src="img/pnj.com.vn.png" alt="">
+      </div>
+      <div class="loicuoi">
+         <p class="pa1">© 2017 Công Ty Cổ Phần Vàng Bạc Đá Quý Phú Nhuận</p>
+         <p class="pa2">170E Phan Đăng Lưu, P.3, Q.Phú Nhuận, TP.Hồ Chí Minh</p>
+         <p class="pa3">ĐT: 028 39951703 - Fax: 028 3995 1702</p>
+         <p class="pa4">Giấy chứng nhận đăng ký doanh nghiệp: 0300521758.</p>
+         <p class="pa5">Tổng đài hỗ trợ (08:00-21:00, miễn phí gọi)</p>
+         <p class="pa6">Gọi mua: 1800545457 (phím 1)</p>
+         <p class="pa7">Khiếu nại: 1800545457 (phím 2)</p>
+
+      </div>
+   </div>
+   
+   <div class="fote-hai">
+      <div class="fote-hai1">
+      <p class="pb1">Về PNJ</p>
+      <p class="pb2">Câu chuyện PNJ</p>
+      <p class="pb3">Tuyển dụng</p>
+      <p class="pb4">Xuất khẩu</p>
+      <p class="pb5">Kinh doanh sỉ</p>
+      <p class="pb6">Kiểm định kim cương</p>
+
+      </div>
+     
+   </div>
+
+   <div class="fote-ba">
+      <div class="fote-ba1">
+         <p class="pc1">DỊCH VỤ KHÁCH HÀNG</p>
+         <p class="pc2">Hướng dẫn đo size trang sức</p>
+         <p class="pc2">Mua hàng trả góp</p>
+         <p class="pc2">Hướng dẫn mua hàng và thanh toán</p>
+         <p class="pc2">Chính sách hoàn tiền</p>
+         <p class="pc2">Chính sách giao hàng</p>
+         <p class="pc2">Cẩm nang sử dụng trang sức</p>
+         <p class="pc2">Chính sách bảo hành thu đổi</p>
+         <p class="pc2">Chính sách khách hàng thân thiết</p>
+         <p class="pc2">Chính sách bảo mật thông tin khách hàng</p>
+         <p class="pc2">Câu hỏi thường gặp</p>
+         <p class="pc3">PHƯƠNG THỨC THANH TOÁN</p>
+      </div>
+      <div class="fote-bai2">
+         <ul>
+            <li><img src="img/visa.svg" alt=""> </li>
+            <li><img src="img/mastercard.svg" alt=""></li>
+            <li><img src="img/jcb.svg" alt=""></li>
+            <li><img src="img/thanhtoantienmat.svg" alt=""></li>
+            <li><img src="img/internetBanking.svg" alt=""></li>
+            <li><img src="img/tragop.svg" alt=""></li>
+         </ul>
+      </div>
+   </div>
+
+   <div class="foote4">
+      <div class="footer4a">
+         <p class="pd1">KẾT NỐI VỚI CHÚNG TÔI</p>
+      </div>
+      <div class="foote4b">
+         <ul>
+            <li> <img src="img/facebook.svg" alt=""> </li>
+            <li> <img src="img/instagram.svg" alt=""></li>
+            <li> <img src="img/youtube.svg" alt=""></li>
+            <li> <img src="img/email.svg" alt=""></li>
+         </ul>
+      </div>
+      <div class="foote4c">
+         <p class="pd2"> QUAN TÂM ZALO OA PNJ</p>
+         <p class="pd4"> Nhận các thông tin khuyến mãi hấp dẫn</p>
+         <p class="pd3">CHỨNG NHẬN</p>
+         </div>
+        
+   </div>
+    <div class="anh-fote">
+      <img  class="img-fote" src="img/logoSaleNoti.png" alt="">
+   </div>
+ </div>
+
+   </div>
+  
+ 
+</div>
+</body>
+</html>
